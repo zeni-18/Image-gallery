@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <meta name="description" content="A beautiful responsive image gallery with modal view and smooth animations">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+        <p>Click on any image to view it in full size</p>
+    </header>
+
+    <main class="gallery-container">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/gallery_image_1.png" alt="Vibrant sunset landscape with mountains" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery_image_2.png" alt="Serene ocean beach scene" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery_image_3.png" alt="Lush green forest" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery_image_4.png" alt="Starry night sky with milky way" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery_image_5.png" alt="Colorful autumn forest" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery_image_6.png" alt="Snow-capped mountain peaks" class="gallery-img">
+            </div>
+        </div>
+    </main>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img" alt="Enlarged view">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
